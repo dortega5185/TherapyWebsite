@@ -15,7 +15,10 @@ const Contact = () => {
         <h3>Get In Touch</h3>
       </div>
       <div className='contact-form__container'>
-        <form action='https://formsubmit.co/davidpooltron.com' method='POST'>
+        <form
+          action='https://formsubmit.co/davidpooltron@gmail.com'
+          method='POST'
+        >
           <input type='hidden' name='_subject' value='new email WOO!' />
           <div className='contact-form__user-details'>
             <div className='contact-form__input-box'>
