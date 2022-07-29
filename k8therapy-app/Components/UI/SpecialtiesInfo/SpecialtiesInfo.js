@@ -9,19 +9,19 @@ const SpecialtiesInfo = () => {
       <section className='specialties-info'>
         <div className='specialties-info__icon-container'>
           <BsPeople className='specialties-info__icon' />
-          <h4>Relationship Dynamics</h4>
+          <h5>Relationship Dynamics</h5>
         </div>
         <div className='specialties-info__icon-container border-both-sides'>
           <GiFamilyHouse className='specialties-info__icon' />
-          <h4>Family Functioning</h4>
+          <h5>Family Functioning</h5>
         </div>
         <div className='specialties-info__icon-container border-right-side'>
           <BsGenderAmbiguous className='specialties-info__icon' />
-          <h4>Identity Exploration</h4>
+          <h5>Identity Exploration</h5>
         </div>
         <div className='specialties-info__icon-container'>
           <AiOutlineHeart className='specialties-info__icon' />
-          <h4>Intimacy Issues</h4>
+          <h5>Intimacy Issues</h5>
         </div>
       </section>
       <div className='specialties-info__btn-container'>

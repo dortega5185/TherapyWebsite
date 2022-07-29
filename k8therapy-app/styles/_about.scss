@@ -1,5 +1,4 @@
 .about-content {
-  //   height: 100vh;
   &__header-bg-img {
     background-image: url('/img/aboutSample.jpg');
     background-position: center;
@@ -31,7 +30,10 @@
     h1 {
       //   text-align: center;
       font-size: 3em;
-      color: black;
+      color: #c29257;
+      //   color: #d17f1b;
+      //   color: #123261;
+      //   color: black;
     }
   }
   //   &__width-container {

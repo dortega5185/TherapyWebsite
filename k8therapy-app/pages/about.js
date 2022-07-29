@@ -20,6 +20,7 @@ const About = (props) => {
                 src='/img/portraitSample.jpg'
                 width={300}
                 height={400}
+                alt='Self-Portrait'
               />
             </div>
           </div>
