@@ -1,3 +1,5 @@
+import Accordion from '../Components/UI/Accordion/Accordion'
+
 const Specialties = (props) => {
   return (
     <>
@@ -5,6 +7,7 @@ const Specialties = (props) => {
         <div className='specialties-content__page-title'>
           <h1>Specialties</h1>
         </div>
+        <Accordion />
       </section>
     </>
   )
