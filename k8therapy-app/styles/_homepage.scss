@@ -17,7 +17,8 @@
       text-align: center;
       //   height: 100px;
       h2 {
-        font-size: 2em;
+        font-size: 2.5em;
+        font-weight: 400;
       }
       .small-blurb {
         line-height: 1.6;
@@ -35,6 +36,14 @@
           color: black;
           text-transform: capitalize;
           font-size: 1.3em;
+          //   transition: 0.6;
+        }
+      }
+      .blurb-btn:hover {
+        background: black;
+        transition: all 0.4s ease-in-out;
+        a {
+          color: #fff;
         }
       }
     }
@@ -61,11 +70,12 @@
 
 .info-block {
   text-align: center;
-  padding: 80px 0;
+  padding-top: 80px;
   &__sm-body {
     padding: 0 180px;
     h3 {
-      font-size: 1.8em;
+      font-size: 2.4em;
+      font-weight: 500;
     }
     p {
       padding: 20px;
@@ -74,16 +84,13 @@
   }
   &__widgets {
     margin-top: 20px;
-    background: black;
     height: auto;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    // justify-content: center;
-    justify-content: space-around;
   }
-  &__icon {
-    padding: 80px 60px;
-    border: 5px solid #fff;
-  }
+}
+
+.contact-block {
+  height: auto;
+  padding: 60px 200px;
+  //   background: rgb(220, 220, 220);
 }

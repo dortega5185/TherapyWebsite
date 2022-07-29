@@ -1,10 +1,11 @@
-.top-header {
+.navbar {
   //   padding: 1.5em;
   width: 100%;
   z-index: 100;
-  position: absolute;
+  //   position: absolute;
   display: flex;
   justify-content: space-around;
+  background: #c19a6b;
 
   &__logo {
     // background-image: url('/img/logo2.png');
@@ -42,7 +43,8 @@
       text-transform: uppercase;
     }
     a:hover {
-      opacity: 0.7;
+      //   opacity: 0.7;
+      color: #123261;
       transition: all 0.3s ease-in-out;
     }
   }

@@ -1,0 +1,40 @@
+.footer-box {
+  //   background-color: #123261;
+  background-color: #e8e8e8;
+  line-height: 1.5;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  //   height: 5rem;
+  &__contact {
+    color: #7f7f7f;
+    // position: relative;
+    a {
+      font-weight: 400;
+      text-decoration: none;
+      color: #7f7f7f;
+      //   color: rgba(26, 26, 26, 0.6);
+    }
+    a:hover {
+      color: rgba(26, 26, 26, 0.7);
+    }
+  }
+  &__icon {
+    font-size: 14px;
+    // margin: 5px 10px 0;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+  }
+  .mail-icon {
+    font-size: 18px;
+    top: 4px;
+  }
+  &__copyright {
+    color: #7f7f7f;
+  }
+}

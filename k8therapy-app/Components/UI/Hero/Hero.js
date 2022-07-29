@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -10,8 +12,18 @@ const Hero = () => {
             voluptatum sit amet ipsa, excepturi explicabo odit, perspiciatis
             praesentium beatae harum?
           </p>
-          <div className='hero__btn'>Button 1</div>
-          <div className='hero__btn'>Button 2</div>
+          <div className='hero__btn-container'>
+            {/* <div className='hero__action-btn'>
+              <Link href='connect'>
+                <a>Contact Me</a>
+              </Link>
+            </div> */}
+            <div className='hero__action-btn'>
+              <Link href='#'>
+                <a>Schedule a Consultation</a>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,64 @@
+.specialties-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 180px;
+  //   margin: 0 auto;
+  .border-both-sides {
+    border-left: 2px solid #e8e8e8;
+    border-right: 2px solid #e8e8e8;
+  }
+  .border-right-side {
+    border-right: 2px solid #e8e8e8;
+  }
+  &__icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+
+    h4 {
+      color: rgb(70, 47, 146);
+      font-weight: 400;
+      font-size: 1.6em;
+    }
+    // p {
+    //   color: rgb(163, 161, 171);
+    //   font-weight: 300;
+    // }
+  }
+  &__btn-container {
+    padding: 2em 0 4em;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    border-radius: 3%;
+  }
+  &__btn {
+    height: auto;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 2em;
+    background: rgb(107, 75, 209);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+  &__btn:hover {
+    background: rgb(70, 47, 146);
+  }
+  &__icon {
+    font-size: 3.5em;
+    color: rgb(70, 47, 146);
+    // color: rgb(91, 91, 211);
+  }
+}
+
+@media (min-width: 992px) {
+}

@@ -1,5 +1,16 @@
 @use 'reset';
 @use 'homepage';
+@use 'about';
+@use 'specialties';
+@use 'resources';
+@use 'faq';
+@use 'connect';
 @use '../Components/UI/Header/header';
 @use '../Components/UI/Footer/footer';
 @use '../Components/UI/Hero/hero';
+@use '../Components/UI/Accordion/accordion';
+@use '../Components/UI/NavBar/navbar';
+@use '../Components/Layouts/homelayout';
+@use '../Components/Layouts/mainlayout';
+@use '../Components/UI/SpecialtiesInfo/specialtiesinfo';
+@use '../Components/UI/Contact/contact';

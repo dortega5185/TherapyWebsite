@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('/img/homeSample.jpg');
+  background-image: url('/img/sampleBg.jpg');
   // background-repeat: no-repeat;
   background-position: center;
   -moz-background-size: cover;
@@ -37,8 +37,32 @@
     p {
       line-height: 1.6;
     }
-    &__btn {
-      // background:
+  }
+  &__btn-container {
+    // display: flex;
+    // margin-top: 2em;
+    position: relative;
+    top: 2em;
+  }
+  &__action-btn {
+    background: transparent;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 20px;
+    // background: #fff;
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 1.3em;
+    }
+  }
+  &__action-btn:hover {
+    background: white;
+    transition: all 0.4s ease-in-out;
+    a {
+      color: black;
     }
   }
 }
