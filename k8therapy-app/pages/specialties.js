@@ -7,7 +7,9 @@ const Specialties = (props) => {
         <div className='specialties-content__page-title'>
           <h1>Specialties</h1>
         </div>
-        <Accordion />
+        <div className='specialties-content__accordion-container'>
+          <Accordion />
+        </div>
       </section>
     </>
   )

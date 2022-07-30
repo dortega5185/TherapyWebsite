@@ -1,5 +1,7 @@
 .specialties-content {
-  height: 100vh;
+  height: 100%;
+  //   position: relative;
+  //   padding: 0 180px;
   &__page-title {
     display: flex;
     align-items: center;
@@ -10,5 +12,15 @@
       font-size: 3em;
       color: #c29257;
     }
+  }
+  &__accordion-container {
+    // width: 100%;
+    // padding: 0 180px;
+    position: relative;
+    height: auto;
+    // z-index: 5;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
   }
 }
