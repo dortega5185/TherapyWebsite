@@ -1,34 +1,32 @@
 .about-content {
-  &__header-bg-img {
-    background-image: url('/img/aboutSample.jpg');
-    background-position: center;
-    background-size: 100% 100%;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    // filter: blur(4px);
-    // -webkit-filter: blur(8px);
-    height: 350px;
-    position: relative;
-    .cover-overlay {
-      background-color: rgba(0, 0, 0, 0.3);
-      overflow: hidden;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      z-index: 99;
-    }
-  }
+  height: 100vh;
+  //   &__header-bg-img {
+  //     background-image: url('/img/aboutSample.jpg');
+  //     background-position: center;
+  //     background-size: 100% 100%;
+  //     -moz-background-size: cover;
+  //     -webkit-background-size: cover;
+  //     -o-background-size: cover;
+  //     // filter: blur(4px);
+  //     // -webkit-filter: blur(8px);
+  //     height: 350px;
+  //     position: relative;
+  //     .cover-overlay {
+  //       background-color: rgba(0, 0, 0, 0.3);
+  //       overflow: hidden;
+  //       height: 100%;
+  //       width: 100%;
+  //       position: absolute;
+  //       z-index: 99;
+  //     }
+  //   }
   &__page-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    // height: 100%;
     padding-top: 100px;
     // padding-bottom: 100px;
-    padding-left: 1.2em;
     h1 {
-      //   text-align: center;
       font-size: 3em;
       color: #c29257;
       //   color: #d17f1b;

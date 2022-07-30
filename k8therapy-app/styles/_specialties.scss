@@ -1,14 +1,12 @@
 .specialties-content {
+  height: 100vh;
   &__page-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    // height: 100%;
     padding-top: 100px;
-    // padding-bottom: 100px;
-    padding-left: 1.2em;
+    padding-bottom: 100px;
     h1 {
-      //   text-align: center;
       font-size: 3em;
       color: #c29257;
     }
