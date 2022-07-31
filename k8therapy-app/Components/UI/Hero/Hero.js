@@ -19,7 +19,7 @@ const Hero = () => {
               </Link>
             </div> */}
             <div className='hero__action-btn'>
-              <Link href='#'>
+              <Link href='/connect'>
                 <a>Schedule a Consultation</a>
               </Link>
             </div>

@@ -17,6 +17,10 @@
     justify-content: space-around;
   }
   &__info-block {
+    // background: #c29257;
+    // background: rgba(191, 153, 114, 0.4);
+    // background: rgba(18, 50, 97, 0.1);
+    // padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -28,6 +32,7 @@
       color: #797979;
       font-weight: 300;
       letter-spacing: 0.5px;
+      line-height: normal;
     }
   }
   //   &__image {

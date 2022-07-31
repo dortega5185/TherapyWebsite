@@ -1,5 +1,6 @@
 .faq-content {
-  height: 100vh;
+  height: 100%;
+  padding: 0 180px;
   &__page-title {
     display: flex;
     align-items: center;
@@ -10,5 +11,26 @@
       font-size: 3em;
       color: #c29257;
     }
+  }
+  &__question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 4em;
+    span {
+      font-weight: 500;
+    }
+    p {
+      color: #666666;
+
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+  }
+  &__question-block {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    gap: 10px;
   }
 }

@@ -99,3 +99,9 @@
   padding: 60px 180px;
   //   background: rgb(220, 220, 220);
 }
+
+@media (max-width: 584px) {
+  .contact-block {
+    padding: 60px 0;
+  }
+}
