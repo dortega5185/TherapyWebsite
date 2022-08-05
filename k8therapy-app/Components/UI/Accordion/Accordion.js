@@ -5,8 +5,8 @@ const Accordion = () => {
   return (
     <>
       <section className='accordion'>
-        {accordionData.map(({ title, content }) => (
-          <AccordionLogic title={title} content={content} />
+        {accordionData.map(({ title, content, index }) => (
+          <AccordionLogic title={title} content={content} key={index} />
         ))}
       </section>
     </>

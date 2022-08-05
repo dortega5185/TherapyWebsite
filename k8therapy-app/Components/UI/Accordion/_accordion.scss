@@ -14,6 +14,8 @@
 .accordion-item {
   background: #fff;
   padding: 25px 25px 25px 25px;
+  transition: 0.4s;
+  //   transition: all 1s ease-in-out;
 }
 .accordion-title {
   display: flex;
@@ -32,12 +34,8 @@
   letter-spacing: 1px;
   width: 800px;
   padding: 20px 0 0 0;
-  overflow: hidden;
   line-height: normal;
-  //   max-height: 1000px;
-  //   transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+  //   max-height: 6em;
+  //   transition: max-height 0.2s ease-out;
 }
-// .accordion-content[aria-expanded='true'] {
-//   max-height: 0px;
-//   transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
-// }

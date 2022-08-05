@@ -17,7 +17,7 @@ const Faq = (props) => {
               parts of your past. You can become more secure and confident. You
               can establish healthy boundaries with those around you. You can
               have a healthy and supportive relationship. You can become whole
-              and happy.{' '}
+              and happy.
             </p>
           </div>
           <div className='faq-content__question-block'>
@@ -27,18 +27,18 @@ const Faq = (props) => {
               different ups- different downs. My weakness may be your strength
               and vice versa. Because no 2 of us are the same, the process of
               counseling will not be. That being said there are common threads;
-              you will not be judged and you won't feel alone.
+              you will not be judged and you won&apos;t feel alone.
             </p>
           </div>
           <div className='faq-content__question-block'>
             <span>Why should I see a therapist/counselor?</span>
             <p>
-              Counseling isn't for everyone nor is it essential to go every week
-              for your whole life. If you come in to counseling and don't feel
-              like it's for you, that is completely fine. Some will get more
-              benefit from different avenues of support. I at the very least can
-              help you with other resources or ideas about how to get the help
-              you deserve.
+              Counseling isn&apos;t for everyone nor is it essential to go every
+              week for your whole life. If you come in to counseling and
+              don&apos;t feel like it&apos;s for you, that is completely fine.
+              Some will get more benefit from different avenues of support. I at
+              the very least can help you with other resources or ideas about
+              how to get the help you deserve.
             </p>
           </div>
           <div className='faq-content__question-block'>
@@ -48,15 +48,15 @@ const Faq = (props) => {
               things each and every day. We compare our lives to others, we are
               inundated with information about how we should look, what we
               should buy, how we should feel. Add in anxiety, depression, or low
-              self-esteem to the mix and it's not difficult to imagine becoming
-              overwhelmed. We have too many negative thoughts in our head, too
-              many negative feelings in our heart to hold it all in. Counseling
-              will provide a safe space for you to express yourself and release
-              those thoughts/feelings. With less noise in your mind and body,
-              you can begin to discover how you want to grow and what steps need
-              to be taken to get there. My first priority is to never let you
-              feel judged for what you say in a counseling session and to never
-              let you feel alone in this journey.
+              self-esteem to the mix and it&apos;s not difficult to imagine
+              becoming overwhelmed. We have too many negative thoughts in our
+              head, too many negative feelings in our heart to hold it all in.
+              Counseling will provide a safe space for you to express yourself
+              and release those thoughts/feelings. With less noise in your mind
+              and body, you can begin to discover how you want to grow and what
+              steps need to be taken to get there. My first priority is to never
+              let you feel judged for what you say in a counseling session and
+              to never let you feel alone in this journey.
             </p>
           </div>
           <div className='faq-content__question-block'>
@@ -75,9 +75,9 @@ const Faq = (props) => {
               took on a variety of clients with a broad range of issues. I
               first, hoped to let my experience lead me to discover my niche and
               second, wanted to develop the skills to work with anyone. It
-              didn't take long to uncover my passion of working with women. I
-              love witnessing women transform into the best version of
-              themselves. Whether it's dealing with a pattern of bad
+              didn&apos;t take long to uncover my passion of working with women.
+              I love witnessing women transform into the best version of
+              themselves. Whether it&apos;s dealing with a pattern of bad
               relationships, low self-esteem or an unexpected life change, I
               have seen many women start therapy without a voice or much hope
               and terminate with complete empowerment and strength.
@@ -95,11 +95,11 @@ const Faq = (props) => {
               fully. Infidelity, poor communication, lack of sexual intimacy are
               additional potential burdens placed relationships and in turn
               ourselves. When couples are in distress, it can suck your energy
-              dry and life isn't very satisfying when you spend so much of your
-              time arguing or feeling contemptuous. Couples counseling can be
-              challenging but so greatly rewarding. It's amazing to see a couple
-              move from a place of distress and dissatisfaction to complete
-              commitment and love.
+              dry and life isn&apos;t very satisfying when you spend so much of
+              your time arguing or feeling contemptuous. Couples counseling can
+              be challenging but so greatly rewarding. It&apos;s amazing to see
+              a couple move from a place of distress and dissatisfaction to
+              complete commitment and love.
             </p>
           </div>
         </section>
