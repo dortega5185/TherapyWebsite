@@ -17,9 +17,9 @@ const About = (props) => {
             <div className='about-content__img-container'>
               <Image
                 className='about-content__image'
-                src='/img/portraitSample.jpg'
+                src='/img/portrait.jpg'
                 width={300}
-                height={400}
+                height={350}
                 alt='Self-Portrait'
               />
             </div>
