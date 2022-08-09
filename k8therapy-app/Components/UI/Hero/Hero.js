@@ -5,7 +5,7 @@ const Hero = () => {
     <div className='hero'>
       <div className='color-overlay'>
         <div className='hero__container'>
-          <h1>This is a sign</h1>
+          <h1>Healing is a choice.</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
             aliquam aperiam veniam aut ad corrupti quis eaque quidem provident
@@ -13,11 +13,6 @@ const Hero = () => {
             praesentium beatae harum?
           </p>
           <div className='hero__btn-container'>
-            {/* <div className='hero__action-btn'>
-              <Link href='connect'>
-                <a>Contact Me</a>
-              </Link>
-            </div> */}
             <div className='hero__action-btn'>
               <Link href='/connect'>
                 <a>Schedule a Consultation</a>

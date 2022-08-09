@@ -1,5 +1,6 @@
 .resources-content {
   height: 100vh;
+
   &__page-title {
     display: flex;
     align-items: center;
@@ -11,9 +12,14 @@
       color: #c29257;
     }
   }
+  &__sub-header {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 1.6em;
+  }
   &__psychology-blocks {
     display: flex;
-    padding: 100px 20px;
+    padding: 80px 20px;
     justify-content: space-around;
   }
   &__info-block {
@@ -28,11 +34,47 @@
     h5 {
       font-size: 1.6em;
     }
-    p {
-      color: #797979;
-      font-weight: 300;
-      letter-spacing: 0.5px;
-      line-height: normal;
+    // p {
+    //   color: #797979;
+    //   font-weight: 300;
+    //   letter-spacing: 0.5px;
+    //   line-height: normal;
+    // }
+  }
+  &__contact {
+    text-decoration: none;
+    font-size: 1.4em;
+    // color: grey;
+  }
+  &__btn {
+    // height: auto;
+    // margin: 0 auto;
+    // width: fit-content;
+    // background: rgb(107, 75, 209);
+    // border-radius: 5px;
+    // outline: none;
+    // border: none;
+    padding: 10px 2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    // padding: 10px 40px;
+    a {
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+    }
+  }
+  &__btn:hover {
+    background: black;
+    a {
+      color: #fff;
     }
   }
   //   &__image {

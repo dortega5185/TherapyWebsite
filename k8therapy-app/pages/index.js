@@ -19,7 +19,7 @@ export default function HomePage() {
         <aside className='blurb-with-img'>
           <div className='round-portrait'>
             <Image
-              src='/img/sampleHeadshot.jpg'
+              src='/img/portrait.jpg'
               height={200}
               width={200}
               className='round-portrait__img'
@@ -28,25 +28,18 @@ export default function HomePage() {
           </div>
           <div className='blurb-body'>
             <h2>Katelyn Sansone</h2>
-            <p>The road to your healing begins here</p>
             <p className='small-blurb'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-              accusantium voluptatum iure ex quaerat aut distinctio, nihil
-              ducimus laborum alias dolores optio a, voluptatibus, nisi ipsam
-              tempora eum suscipit est? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ullam animi culpa, amet aliquam nam inventore
-              facere error atque nisi dolore quasi recusandae incidunt cumque,
-              quaerat beatae quam! Corrupti, laboriosam obcaecati.
+              Hi, I&apos;m Katelyn. I&apos;m a Supervised Marriage and Family
+              Therapist (S-MFT) in St. Louis, MO who works with individuals,
+              couples, and families. I&apos;m trained to look at how others
+              present in your life impact the distress one may be experiencing.
+              Change, loss, and pain are inevitable pieces of the human
+              experience. Often we need extra support to help navigate these
+              difficult, overwhelming periods of time. Therapy can provide
+              guidance and support in a warm, comforting space tailored for your
+              specific struggles.
             </p>
-            <p className='small-blurb'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-              accusantium voluptatum iure ex quaerat aut distinctio, nihil
-              ducimus laborum alias dolores optio a, voluptatibus, nisi ipsam
-              tempora eum suscipit est? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ullam animi culpa, amet aliquam nam inventore
-              facere error atque nisi dolore quasi recusandae incidunt cumque,
-              quaerat beatae quam! Corrupti, laboriosam obcaecati.
-            </p>
+
             <div className='blurb-btn'>
               <Link href='/about'>
                 <a>Learn more</a>
@@ -57,10 +50,12 @@ export default function HomePage() {
       </section>
       <section className='quote-parent'>
         <h4>
-          &quot;Our wounds are often the openings into the best and most
-          beautiful parts of us.&quot;
+          &quot;The quality of your life ultimately depends on the quality of
+          your relationships . . . which are basically a reflection of your
+          sense of decency, your ability to think of others, your generosity.
+          &quot;
         </h4>
-        <p>- Kanye West</p>
+        <p>- Esther Perel</p>
       </section>
       <section className='info-block'>
         <aside className='info-block__sm-body'>
