@@ -27,7 +27,7 @@ const Resources = (props) => {
             </a>
             <div className='resources-content__btn'>
               <Link href='https://bhrstl.org'>
-                <a>Learn more</a>
+                <a>Contact</a>
               </Link>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Resources = (props) => {
             </a>
             <div className='resources-content__btn'>
               <Link href='https://988lifeline.org'>
-                <a>Learn more</a>
+                <a>Contact</a>
               </Link>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Resources = (props) => {
             </a>
             <div className='resources-content__btn'>
               <Link href='https://www.thetrevorproject.org/get-help/'>
-                <a>Learn more</a>
+                <a>Contact</a>
               </Link>
             </div>
           </div>
