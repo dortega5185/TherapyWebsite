@@ -60,5 +60,49 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 320px) and (max-width: 480px) {
+  .specialties-info {
+    display: block;
+    padding: 20px 0;
+    &__icon-container {
+      width: 100%;
+      border: 0 !important;
+      padding: 20px;
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .specialties-info {
+    display: block;
+    padding: 20px 0;
+    &__icon-container {
+      width: 100%;
+      border: 0 !important;
+      padding: 20px;
+    }
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .specialties-info {
+    padding: 40px 0;
+    &__icon-container {
+      padding: 20px;
+    }
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .specialties-info {
+    padding: 40px 0;
+    &__icon-container {
+      padding: 20px;
+    }
+  }
+}
+@media (min-width: 1201px) {
+  .specialties-info {
+    padding: 40px 0;
+    &__icon-container {
+      padding: 20px;
+    }
+  }
 }

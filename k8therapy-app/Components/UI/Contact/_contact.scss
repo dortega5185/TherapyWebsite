@@ -71,6 +71,7 @@
       font-size: 1em;
       border-bottom-width: 2px;
       transition: all 0.3s ease;
+      font-weight: 300;
     }
   }
   &__user-details &__input-message input:focus {
@@ -91,6 +92,7 @@
       font-size: 1em;
       border-bottom-width: 2px;
       transition: all 0.3s ease;
+      font-weight: 300;
     }
   }
   &__user-details &__input-textarea textarea:focus {
@@ -120,13 +122,44 @@
     background: #9b5427;
   }
 
-  @media (max-width: 584px) {
+  @media (min-width: 320px) and (max-width: 480px) {
     &__container {
       max-width: 100%;
+      padding: 25px 30px;
     }
     &__user-details &__input-box {
       margin-bottom: 15px;
       width: 100%;
     }
   }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    &__container {
+      max-width: 100%;
+      // padding: 25px 30px;
+    }
+    &__user-details &__input-box {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    &__container {
+      // max-width: 100%;
+      // padding: 25px 30px;
+    }
+    &__user-details &__input-box {
+      margin-bottom: 15px;
+      // width: 100%;
+    }
+  }
+  // @media (min-width: 584px) {
+  //   &__container {
+  //     max-width: 100%;
+  //   }
+  //   &__user-details &__input-box {
+  //     margin-bottom: 15px;
+  //     width: 100%;
+  //   }
+  // }
 }

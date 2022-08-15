@@ -1,6 +1,6 @@
 .connect-content {
   //   padding: 0 60px 30px;
-  height: 100vh;
+  height: 100%;
   &__page-title {
     display: flex;
     align-items: center;
@@ -17,5 +17,15 @@
   }
   .contact-form__page-title {
     display: none;
+  }
+  @media (min-width: 320px) and (max-width: 1024px) {
+    &__contact-form {
+      padding: 60px 0;
+    }
+  }
+  @media (min-width: 1025px) {
+    &__contact-form {
+      padding-bottom: 80px;
+    }
   }
 }
