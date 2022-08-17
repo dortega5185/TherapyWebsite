@@ -35,3 +35,12 @@
     gap: 10px;
   }
 }
+@media (min-width: 320px) and (max-width: 1024px) {
+  .faq-content {
+    padding: 0 8%;
+  }
+  .faq-content__page-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

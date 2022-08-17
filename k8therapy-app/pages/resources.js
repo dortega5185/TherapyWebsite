@@ -15,13 +15,15 @@ const Resources = (props) => {
         <div className='resources-content__psychology-blocks'>
           <div className='resources-content__info-block'>
             <h5>Behavioral Health Response - St. Louis</h5>
-            <Image
-              className='resources-content__image'
-              src='/img/bhr.png'
-              width={500}
-              height={300}
-              alt='Sample photo for a resource'
-            />
+            <div className='resources-content__img-container'>
+              <Image
+                className='resources-content__image'
+                src='/img/bhr.png'
+                width={500}
+                height={300}
+                alt='Sample photo for a resource'
+              />
+            </div>
             <a className='resources-content__contact' href='tel:314-469-6644'>
               314-469-6644
             </a>
@@ -33,13 +35,15 @@ const Resources = (props) => {
           </div>
           <div className='resources-content__info-block'>
             <h5>National Suicide Prevention Lifeline</h5>
-            <Image
-              className='resources-content__image'
-              src='/img/crisis.png'
-              width={500}
-              height={300}
-              alt='Sample photo for a resource'
-            />
+            <div className='resources-content__img-container'>
+              <Image
+                className='resources-content__image'
+                src='/img/crisis.png'
+                width={500}
+                height={300}
+                alt='Sample photo for a resource'
+              />
+            </div>
             <a className='resources-content__contact' href='tel:800-273-8255'>
               1-800-273-8255 OR 988
             </a>
@@ -51,13 +55,15 @@ const Resources = (props) => {
           </div>
           <div className='resources-content__info-block'>
             <h5>The Trevor Project</h5>
-            <Image
-              className='resources-content__image'
-              src='/img/trevor.png'
-              width={500}
-              height={300}
-              alt='Sample photo for a resource'
-            />
+            <div className='resources-content__img-container'>
+              <Image
+                className='resources-content__image'
+                src='/img/trevor.png'
+                width={500}
+                height={300}
+                alt='Sample photo for a resource'
+              />
+            </div>
             <a className='resources-content__contact' href='tel:866-488-7386'>
               1-866-488-7386
             </a>

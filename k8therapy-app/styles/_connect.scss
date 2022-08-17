@@ -19,8 +19,12 @@
     display: none;
   }
   @media (min-width: 320px) and (max-width: 1024px) {
+    &__page-title {
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
     &__contact-form {
-      padding: 60px 0;
+      padding: 40px 0 60px 0;
     }
   }
   @media (min-width: 1025px) {
