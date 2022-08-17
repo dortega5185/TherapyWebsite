@@ -13,13 +13,19 @@ const About = (props) => {
               <Image
                 className='about-content__image'
                 src='/img/portrait.jpg'
-                width={300}
-                height={350}
+                // width={300}
+                // height={350}
+                // layout='fill'
+                // objectFit='cover'
+                width='100%'
+                height='100%'
+                layout='responsive'
+                objectFit='cover'
                 alt='Self-Portrait'
               />
             </div>
           </div>
-          <aside className='about-content__right-content col-md-8'>
+          <aside className='about-content__right-content col-md-bruh'>
             <h2>Katelyn Sansone</h2>
             <p>
               Why is therapy so intimidating? Will it really help? Can someone
@@ -32,7 +38,7 @@ const About = (props) => {
               communication. You might be wrestling with a sense of identity,
               direction, or hope for the future.
             </p>
-            <p>
+            <p className='about-content__second-body'>
               Everyone can experience times of crisis and questioning their
               lives. You don&apos;t have to go through it alone. It is a sign of
               strength and courage to reach out for support during those times
