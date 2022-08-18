@@ -19,7 +19,7 @@ const NavBar = () => {
           </Link>
         </div>
         <div
-          className='top-header__menu-btn'
+          className='navbar__menu-btn'
           onClick={() => setSideNavOpenAction(!sideNavOpen)}
         >
           <FaBars />
@@ -27,17 +27,23 @@ const NavBar = () => {
         <nav className='navbar__nav'>
           <ul
             className={`navbar__navlist ${
-              sideNavOpen ? 'top-header--menu-open' : ''
+              sideNavOpen ? 'navbar--menu-open' : ''
             }`}
           >
-            <li className='navbar__nav-li'>
+            <li
+              className='navbar__nav-li'
+              onClick={() => setSideNavOpenAction(!sideNavOpen)}
+            >
               <Link href='/about'>
                 <a className={router.pathname == '/about' ? 'active' : ''}>
                   About
                 </a>
               </Link>
             </li>
-            <li className='navbar__nav-li'>
+            <li
+              className='navbar__nav-li'
+              onClick={() => setSideNavOpenAction(!sideNavOpen)}
+            >
               <Link href='/specialties'>
                 <a
                   className={router.pathname == '/specialties' ? 'active' : ''}
@@ -46,19 +52,28 @@ const NavBar = () => {
                 </a>
               </Link>
             </li>
-            <li className='navbar__nav-li'>
+            <li
+              className='navbar__nav-li'
+              onClick={() => setSideNavOpenAction(!sideNavOpen)}
+            >
               <Link href='/resources'>
                 <a className={router.pathname == '/resources' ? 'active' : ''}>
                   Resources
                 </a>
               </Link>
             </li>
-            <li className='navbar__nav-li'>
+            <li
+              className='navbar__nav-li'
+              onClick={() => setSideNavOpenAction(!sideNavOpen)}
+            >
               <Link href='/faq'>
                 <a className={router.pathname == '/faq' ? 'active' : ''}>FAQ</a>
               </Link>
             </li>
-            <li className='navbar__nav-li'>
+            <li
+              className='navbar__nav-li'
+              onClick={() => setSideNavOpenAction(!sideNavOpen)}
+            >
               <Link href='/connect'>
                 <a className={router.pathname == '/connect' ? 'active' : ''}>
                   Connect

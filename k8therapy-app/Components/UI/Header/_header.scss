@@ -22,7 +22,9 @@
   }
   &__logo-text:hover {
     color: white;
-    opacity: 0.7;
+    // opacity: 0.7;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
     transition: all 0.3s ease-in-out;
   }
   &__menu-btn {
@@ -67,14 +69,15 @@
       text-transform: uppercase;
     }
     a:hover {
-      opacity: 0.7;
+      // opacity: 0.7;
       transition: all 0.3s ease-in-out;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
     }
   }
   .active {
-    // opacity: 0.7;
-    // color: black;
-    // color: #123261;
+    // text-decoration: underline;
+    // text-decoration-thickness: 3px;
   }
   .active:hover {
   }
@@ -124,9 +127,12 @@
       padding: 2.2em 2em;
       font-size: 1.2em;
     }
-    // a:hover {
-    //   opacity: 0.7;
-    //   transition: all 0.3s ease-in-out;
-    // }
+    a:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      transition: all 0.3s ease-in-out;
+      color: unset;
+      opacity: 1 !important;
+    }
   }
 }
