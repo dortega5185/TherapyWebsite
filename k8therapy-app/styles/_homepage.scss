@@ -60,7 +60,9 @@
 
 .quote-parent {
   padding: 100px 180px;
-  background: rgb(246, 246, 246);
+  // background: rgb(246, 246, 246);
+  background: #006363;
+  color: #fff;
   //   gap: 20px;
   h4 {
     font-size: 1.6em;
@@ -101,7 +103,8 @@
 .contact-block {
   height: auto;
   padding: 60px 180px;
-  //   background: rgb(220, 220, 220);
+  // background: #8a068a;
+  // background: rgb(220, 220, 220);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
