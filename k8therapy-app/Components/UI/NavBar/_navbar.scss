@@ -64,3 +64,54 @@
   .active:hover {
   }
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .navbar__navlist {
+    // background: red;
+    // color: white;
+    // display: block;
+    // justify-content: space-between;
+    // align-items: center;
+    // padding: 15px 50px;
+    // position: absolute;
+    // height: 100vh;
+    // top: 0;
+    // left: 0;
+    // width: 50vw;
+    // z-index: 101;
+    transition: background 0.3s ease-in-out;
+  }
+  .navbar__menu-btn {
+    display: block;
+  }
+  .navbar__navlist {
+    display: none;
+  }
+  .top-header--menu-open {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    z-index: 101;
+    transition: background 0.3s ease-in-out;
+  }
+  .navbar__nav-li {
+    display: flex;
+
+    a {
+      padding: 2.2em 2em;
+      font-size: 1.2em;
+    }
+    // a:hover {
+    //   opacity: 0.7;
+    //   transition: all 0.3s ease-in-out;
+    // }
+  }
+}
