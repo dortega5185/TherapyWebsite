@@ -3,7 +3,7 @@ import { accordionData } from '../../../utils/accordionData'
 
 const AccordionWithCollapse = () => {
   return (
-    <Accordion>
+    <Accordion defaultActiveKey='0'>
       <Accordion.Item eventKey='0'>
         <Accordion.Header>{accordionData[0].title}</Accordion.Header>
         <Accordion.Body>{accordionData[0].content}</Accordion.Body>
