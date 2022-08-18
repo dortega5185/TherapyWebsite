@@ -1,8 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import { FaBars } from 'react-icons/fa'
+import { useState } from 'react'
 
 const NavBar = () => {
+  const [sideNavOpen, setSideNavOpenAction] = useState(false)
   const router = useRouter()
   return (
     <>
@@ -15,8 +18,18 @@ const NavBar = () => {
             </a>
           </Link>
         </div>
+        <div
+          className='top-header__menu-btn'
+          onClick={() => setSideNavOpenAction(!sideNavOpen)}
+        >
+          <FaBars />
+        </div>
         <nav className='navbar__nav'>
-          <ul className='navbar__navlist'>
+          <ul
+            className={`navbar__navlist ${
+              sideNavOpen ? 'top-header--menu-open' : ''
+            }`}
+          >
             <li className='navbar__nav-li'>
               <Link href='/about'>
                 <a className={router.pathname == '/about' ? 'active' : ''}>

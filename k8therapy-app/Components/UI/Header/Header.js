@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
 
 const Header = () => {
-  const [sideNavOpen, setSideNavOpenAction] = useState(true)
+  const [sideNavOpen, setSideNavOpenAction] = useState(false)
   const router = useRouter()
   return (
     <>
