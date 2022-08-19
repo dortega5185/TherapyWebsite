@@ -32,10 +32,13 @@
     height: 100%;
     color: white;
     h1 {
-      font-size: 3em;
+      font-size: 3.4em;
     }
     p {
       line-height: 1.6;
+      font-size: 1.8em;
+      font-style: italic;
+      padding: 20px 30% 10px;
     }
   }
   &__btn-container {
@@ -74,6 +77,9 @@
   }
   .hero__container {
     padding: 0 20px;
+    p {
+      padding: 20px 5% 10px;
+    }
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -83,6 +89,9 @@
   }
   .hero__container {
     padding: 0 40px;
+    p {
+      padding: 20px 10% 10px;
+    }
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -92,5 +101,16 @@
   }
   .hero__container {
     padding: 0 100px;
+    p {
+      padding: 20px 20px 10px;
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .hero__container {
+    p {
+      font-size: 1.8em;
+      padding: 20px 16% 10px;
+    }
   }
 }
