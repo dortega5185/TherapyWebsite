@@ -6,12 +6,12 @@ const Footer = (props) => {
     <>
       <footer className='footer-box'>
         <p className='footer-box__contact'>
-          <a href='tel:314-805-4494'>
+          <a href='tel:314-279-5871'>
             <BsTelephoneFill className='footer-box__icon' />
             314-279-5871
           </a>{' '}
           |{' '}
-          <a href='mailto:sansonekate@gmail.com'>
+          <a href='mailto:Katelynsansonetherapy@gmail.com'>
             <HiMail className='footer-box__icon mail-icon' />
             Katelynsansonetherapy@gmail.com
           </a>
