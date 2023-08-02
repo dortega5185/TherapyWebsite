@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       <div className='contact-form__container'>
         <form
-          action='https://formsubmit.co/davidpooltron@gmail.com'
+          action='https://formsubmit.co/Katelynsansonetherapy@gmail.com'
           method='POST'
         >
           <input type='hidden' name='_subject' value='new email WOO!' />
