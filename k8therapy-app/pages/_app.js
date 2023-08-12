@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps, router }) {
     return (
       <MainLayout>
         <Head>
+          <title>Katelyn Sansone - About</title>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
         </Head>
         <Component {...pageProps} />
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps, router }) {
     return (
       <MainLayout>
         <Head>
+          <title>Katelyn Sansone - Specialties</title>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
         </Head>
         <Component {...pageProps} />
@@ -29,6 +31,7 @@ function MyApp({ Component, pageProps, router }) {
     return (
       <MainLayout>
         <Head>
+          <title>Katelyn Sansone - Resources</title>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
         </Head>
         <Component {...pageProps} />
@@ -39,6 +42,7 @@ function MyApp({ Component, pageProps, router }) {
     return (
       <MainLayout>
         <Head>
+          <title>Katelyn Sansone - FAQ</title>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
         </Head>
         <Component {...pageProps} />
@@ -49,6 +53,7 @@ function MyApp({ Component, pageProps, router }) {
     return (
       <MainLayout>
         <Head>
+          <title>Katelyn Sansone - Connect</title>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
         </Head>
         <Component {...pageProps} />
