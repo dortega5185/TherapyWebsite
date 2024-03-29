@@ -5,7 +5,8 @@ const Hero = () => {
     <div className='hero'>
       <div className='color-overlay'>
         <div className='hero__container'>
-          <h1>Healing is a choice.</h1>
+          <h1>Provisionally Licensed Marriage & Family Therapist</h1>
+          <h2>Healing is a choice.</h2>
           <p>
           Helping you improve your relationships, create better habits & find more balance
           </p>

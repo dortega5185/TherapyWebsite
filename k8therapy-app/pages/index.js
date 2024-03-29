@@ -19,9 +19,9 @@ export default function HomePage() {
         <aside className='blurb-with-img'>
           <div className='round-portrait'>
             <Image
-              src='/img/portrait.jpg'
-              height={200}
-              width={200}
+              src='/img/closeUpShot.jpg'
+              height={400}
+              width={400}
               className='round-portrait__img'
               alt='Self-Portrait'
             />
@@ -49,13 +49,17 @@ export default function HomePage() {
         </aside>
       </section>
       <section className='quote-parent'>
-        <h4>
-          &quot;The quality of your life ultimately depends on the quality of
-          your relationships . . . which are basically a reflection of your
-          sense of decency, your ability to think of others, your generosity.
-          &quot;
-        </h4>
-        <p>- Esther Perel</p>
+        <div className='color-overlay'>
+          <div className='quote-container'>
+            <h4>
+              &quot;The quality of your life ultimately depends on the quality of
+              your relationships . . . which are basically a reflection of your
+              sense of decency, your ability to think of others, your generosity.
+              &quot;
+            </h4>
+            <p>- Esther Perel</p>
+          </div>
+        </div>
       </section>
       <section className='info-block'>
         <aside className='info-block__sm-body'>

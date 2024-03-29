@@ -70,7 +70,7 @@ const Contact = () => {
           </div>
 
           <div className='contact-form__submit-btn'>
-            <input type='submit' />
+            <input type='submit' value="Submit" />
           </div>
         </form>
       </div>
