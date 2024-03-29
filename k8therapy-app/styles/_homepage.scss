@@ -1,15 +1,23 @@
+@import 'mixins';
+
 .mid-intro-blurb {
-  padding: 80px 180px;
+  padding: 120px 180px;
   text-align: center;
   .blurb-with-img {
     // position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
     .round-portrait {
-      //   height: auto;
-      //   width: fit-content;
+        // height: auto;
+        // width: fit-content;
       //   padding-top: 2em;
+      display: inline-block;
+      
       &__img {
         border: 5px solid black !important;
-        border-radius: 50%;
+        // border-radius: 50%;
       }
     }
     .blurb-body {
@@ -17,7 +25,7 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
-      text-align: center;
+      text-align: left;
       h2 {
         font-size: 2.5em;
         font-weight: 400;
@@ -30,13 +38,16 @@
       .small-blurb {
         color: #797979;
         line-height: 1.6;
+        width: 600px;
+        // text-align: center;
+        // margin-inline: auto;
       }
       .blurb-btn {
         background: transparent;
         border: 2px solid black;
-        // border-radius: 5px;
+        border-radius: 5px;
+        // border-radius: 25px;
         // display: inline-block;
-        margin: 0 auto;
         width: fit-content;
         padding: 10px 20px;
         a {
@@ -59,11 +70,33 @@
 }
 
 .quote-parent {
-  padding: 100px 180px;
+  width: 100%;
+  height: 40dvh;
+  // padding: 200px 180px;
   // background: rgb(246, 246, 246);
-  background: #006363;
+  // background: #006363;
+  background-image: url('/img/friendship.jpg');
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
   color: #fff;
-  //   gap: 20px;
+  position: relative;
+  .color-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+  }
+  .quote-container {
+    padding: 200px 180px;
+    width: 100%;
+    height: 100%;
+  }
   h4 {
     font-size: 1.6em;
     text-align: center;
@@ -107,46 +140,46 @@
   // background: rgb(220, 220, 220);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .mid-intro-blurb {
-    padding: 60px 30px;
-  }
-  .blurb-body .blurb-btn {
-    // padding: 0;
-    width: 100%;
-  }
-  .quote-parent {
-    padding: 60px 30px;
-    h4 {
-      line-height: normal;
-      font-size: 1.35em;
-    }
-  }
-  .info-block__sm-body {
-    padding: 0 !important;
-  }
-  // .contact-block {
-  //   padding: 60px 0;
-  // }
-}
-@media (min-width: 481px) and (max-width: 768px) {
-  .mid-intro-blurb {
-    padding: 60px 40px;
-  }
-  .quote-parent {
-    padding: 60px 30px;
-    h4 {
-      line-height: normal;
-      font-size: 1.35em;
-    }
-  }
-  .info-block__sm-body {
-    padding: 0 !important;
-  }
-}
+// @media (min-width: 320px) and (max-width: 480px) {
+//   .mid-intro-blurb {
+//     padding: 60px 30px;
+//   }
+//   .blurb-body .blurb-btn {
+//     // padding: 0;
+//     width: 100%;
+//   }
+//   .quote-parent {
+//     padding: 60px 30px;
+//     h4 {
+//       line-height: normal;
+//       font-size: 1.35em;
+//     }
+//   }
+//   .info-block__sm-body {
+//     padding: 0 !important;
+//   }
+//   // .contact-block {
+//   //   padding: 60px 0;
+//   // }
+// }
+// @media (min-width: 481px) and (max-width: 768px) {
+//   .mid-intro-blurb {
+//     padding: 60px 40px;
+//   }
+//   .quote-parent {
+//     padding: 60px 30px;
+//     h4 {
+//       line-height: normal;
+//       font-size: 1.35em;
+//     }
+//   }
+//   .info-block__sm-body {
+//     padding: 0 !important;
+//   }
+// }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-  .contact-block {
-    padding: 60px 0;
-  }
-}
+// @media (min-width: 320px) and (max-width: 1024px) {
+//   .contact-block {
+//     padding: 60px 0;
+//   }
+// }

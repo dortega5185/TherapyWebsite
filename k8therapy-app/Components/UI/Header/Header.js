@@ -2,19 +2,30 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { FaBars } from 'react-icons/fa'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Header = () => {
   const [sideNavOpen, setSideNavOpenAction] = useState(false)
+  // const [style, setStyle] = useState("top-header__clickedLogo")
   const router = useRouter()
+
+  // useEffect(() => {
+  //   setStyle("")
+  // }, [])
+
+  // const addStyle = () => {
+  //   console.log("you clicked")
+  //   setStyle("top-header__clickedLogo")
+  // }
+
   return (
     <>
       <header className='top-header'>
-        <div className='top-header__logo'>
+        <div className="top-header__logo">
           <Link href='/'>
             <a className='top-header__logo-text'>
-              {/* <Image src='/img/logo2.png' height={350} width={350} /> */}
-              Katelyn Sansone
+              <Image src='/img/kstRoundLogo.svg' height={200} width={200} />
+              {/* Katelyn Sansone */}
             </a>
           </Link>
         </div>
